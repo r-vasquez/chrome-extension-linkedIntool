@@ -1,0 +1,19 @@
+{
+  "name": "LinkedIn Connection Remover",
+  "version": "1.0.0",
+  "description": "A quick tool to select and bulk-delete your LinkedIn Connections",
+  "short_name": "r-vasquez Launch",
+  "author": "r-vasquez",
+  "permissions": ["declarativeContent", "activeTab", "storage"],
+  "icons": {
+    "128": "icons/icon_128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
